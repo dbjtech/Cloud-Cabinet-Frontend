@@ -1,31 +1,21 @@
-import styled from '@emotion/styled'
+import styled from "@emotion/styled"
 
-const headerHeight = 64
-
-export const HomeHeader = styled.div`
-	height: ${headerHeight}px;
-	line-height: ${headerHeight}px;
-	width: 100%;
-	background: #1677ff;
+export const SliderTitleWrap = styled.div`
 	color: #fff;
-	position: relative;
-	z-index: 10;
+	width: 100%;
+	height: 64px;
+	text-align: center;
+	line-height: 64px;
+	font-size: 22px;
+	letter-spacing: 5px;
+	background-color: rgb(0, 40, 77);
+	overflow: hidden;
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
-	padding: 0 16px;
-	box-shadow: 0 1px 4px rgb(0 21 41 / 8%);
+	justify-content: center;
 `
 
-export const HeaderLeft = styled.div`
-	font-size: 24px;
-	user-select: none;
-`
-
-export const HeaderRight = styled.div`
-	display: flex;
-`
-
-export const LayoutContent = styled.div`
-	height: calc(100vh - ${headerHeight}px);
+export const SliderTitle = styled.div`
+	margin-left: 10px;
+	min-width: 108px;
 `
